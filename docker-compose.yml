@@ -1,0 +1,6 @@
+﻿services:
+  protalinterno.api:
+    image: protalinterno.api
+    build:
+      context: .
+      dockerfile: src/ProtalInterno.API/Dockerfile
